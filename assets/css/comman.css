@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  body{
+    display: flex !important;
+    flex-direction: column !important;
+    background-image: linear-gradient(to right, #af4555, purple);
+  }
+  
+  .header, .task-list{
+    margin:0 auto;
+  }
+  
+  .header h1, .task-list h1{
+    color: rgb(22, 22, 22);
+    animation:slideDown 5s 1 forwards;
+    font-weight: bolder;
+    font-style: italic;
+    
+  }
